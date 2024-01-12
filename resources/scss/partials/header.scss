@@ -15,17 +15,17 @@ header {
             }
 
             &:hover {
-                border-bottom: 5px solid blue;
+                border-bottom: 5px solid rgb(0, 102, 255);
                 padding-top: 5px;
                 a {
-                    color: blue;
+                    color: rgb(0, 102, 255);
                 }
             }
             &.active {
-                border-bottom: 5px solid blue;
+                border-bottom: 5px solid rgb(0, 102, 255);
                 padding-top: 5px;
                 a {
-                    color: blue;
+                    color: rgb(0, 102, 255);
                 }
                 
             }
