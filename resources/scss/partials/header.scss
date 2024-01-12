@@ -1,0 +1,37 @@
+header {
+    img {
+        padding: 20px;
+    }
+    ul {
+        li {
+            align-items: center;
+            list-style: none;
+            padding: 0 5px;
+            
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            &:hover {
+                border-bottom: 5px solid blue;
+                padding-top: 5px;
+                a {
+                    color: blue;
+                }
+            }
+            &.active {
+                border-bottom: 5px solid blue;
+                padding-top: 5px;
+                a {
+                    color: blue;
+                }
+                
+            }
+        }
+
+        
+    }
+    
+}

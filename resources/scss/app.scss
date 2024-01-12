@@ -1,5 +1,3 @@
-@import "~bootstrap/scss/bootstrap";
+@use './partials/header' as *;
 
-body {
-    background-color: lightgreen;
-}
+@import "~bootstrap/scss/bootstrap";
